@@ -1,12 +1,18 @@
-# peg.vim
+# leg.vim
 
-[Parsing Expression Grammar](http://en.wikipedia.org/wiki/Parsing_expression_grammar) syntax for vim.
+> LEG syntax highlighting for ViM
 
-![Screenshot](http://f.cl.ly/items/3b2I2L3s2b1M0o1g0900/Screen%20shot%202011-02-09%20at%201.14.06%20AM.png)
+[Parsing Expression Grammar](http://en.wikipedia.org/wiki/Parsing_expression_grammar) syntax for vim, modified to
+reflect the [LEG](http://piumarta.com/software/peg/) dialect.
 
-Try it out with these [sample grammars](https://github.com/azatoth/PanPG/tree/master/grammars).
+Unlike other LEG.vim highlighters, this highlighter has robust support for the C/C++ inner highlighting as well as
+the end-pattern delimiter (`%%`).
 
 ## Install
 
-Install it with [pathogen](http://www.vim.org/scripts/script.php?script_id=2332).
+Install it with [Plug](https://github.com/junegunn/vim-plug):
+
+```viml
+Plug 'Qix-/leg.vim'
+```
 
