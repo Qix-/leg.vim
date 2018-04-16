@@ -9,7 +9,7 @@ endif
 
 syn include @c syntax/cpp.vim
 
-syn match   legRuleIdentifier   /^\v[a-zA-Z-]+/ skipwhite skipnl nextgroup=legSeperator
+syn match   legRuleIdentifier   /^\v[-a-zA-Z_][-a-zA-Z_0-9]*/ skipwhite skipnl nextgroup=legSeperator
 
 syn match   legSeperator        "=" skipwhite skipnl contained nextgroup=legExpression
 
